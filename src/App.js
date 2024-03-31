@@ -21,7 +21,7 @@ function App() {
       setMeaning("Word not found in the dictionary.");
     }
   }
-
+  // if the dictionary data is large, we can call this handleSearch inside useEffect()
   return (
     <div className="App">
       <h1>Dictionary App</h1>
